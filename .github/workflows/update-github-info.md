@@ -11,6 +11,10 @@ permissions:
 engine:
   id: copilot
   copilot-sdk: true
+model: router
+models:
+  blocked:
+    - claude-sonnet-5.5
 tools:
   bash: false
   cli-proxy: false
